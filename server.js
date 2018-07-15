@@ -4,7 +4,7 @@ let hbs = require('hbs');
 require('./hbs/helpers/helpers');
 
 // Obtener el puerto que nos presta heroku
-const port = process.env.Port || 8080;
+const port = process.env.PORT || 8080;
 
 
 //midleware filtra cualquier tipo de dato , callback que se ejecute simpre que se ejecute el documento
